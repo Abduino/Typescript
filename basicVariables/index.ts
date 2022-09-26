@@ -22,4 +22,7 @@ var arr1 = [1,2,3,4,5];
 var arr2:number[] = [1,2,3,4,5];
 console.log(arr1)
 
+// tuple variable 
 
+var user: [string, number] = ["abdroid", 1234]
+console.log(user)
