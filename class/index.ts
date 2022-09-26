@@ -20,3 +20,13 @@ class Drivers{
 
 var driver1 = new Drivers("abdurehman", "redi", 25, 62.5)
 driver1.display()
+
+/*
+var driver2 = new Drivers {}
+
+driver2.f_name = "abdi"
+driver2.l_name = "fedlu"
+driver2.age = 30
+driver2.weight = 60
+
+driver2.display()*/
