@@ -27,8 +27,19 @@ do{
 // nested for loop
 var x: number;
 var y:number;
+var z:number;
 for(x = 0; x <= 5; x++){
     for(y=0;y <= 5;y++){
         console.log("*")
+    }
+}
+
+
+for (x=0; x<=5 ;x++){
+    for(y=x; y <= 5 ;y++){
+        console.log("*")
+    }
+    for(z=x ; z >= 0; z--){
+        console.log("$")
     }
 }
