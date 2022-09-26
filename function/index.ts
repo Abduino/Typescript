@@ -13,12 +13,21 @@ function displayUser( fname:string, lname:string, age:number, weight:number ){
     console.log("Weight " + weight)
 }
 
-//calling a function
 
+// pass array value to the function 
+function displayArray(...nums:number[]){
+    var x:number;
+    for(x=0; x<=5; x++){
+        console.log(nums[x])
+    }
+}
+
+
+// calling a function 
 displayHello()
 displayUser("abdurehman", "redi", 50, 62.5)
 
-
+displayArray(9,8,7,6,5,4)
 
 
 
