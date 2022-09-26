@@ -26,3 +26,21 @@ console.log(arr1)
 
 var user: [string, number] = ["abdroid", 1234]
 console.log(user)
+
+// constant variable
+
+const small = 1
+const mid = 2
+const larg = 3
+
+// enum variable type
+
+enum Size {small, Mid, Large}
+
+
+
+
+
+
+
+
