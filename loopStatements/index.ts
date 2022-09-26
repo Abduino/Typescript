@@ -22,3 +22,13 @@ do{
     console.log("Iteration" + i)
     i++
 }while(i <= 10)
+
+
+// nested for loop
+var x: number;
+var y:number;
+for(x = 0; x <= 5; x++){
+    for(y=0;y <= 5;y++){
+        console.log("*")
+    }
+}
