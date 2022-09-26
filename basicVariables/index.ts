@@ -16,4 +16,10 @@ console.log("Age = " + age);
 console.log("Weight " + weight);
 console.log("Active user = " + activated);
 
+// array variables 
+
+var arr1 = [1,2,3,4,5];
+var arr2:number[] = [1,2,3,4,5];
+console.log(arr1)
+
 
