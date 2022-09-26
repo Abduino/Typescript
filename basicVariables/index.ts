@@ -37,6 +37,20 @@ const larg = 3
 
 enum Size {small, Mid, Large}
 
+// typescript object
+
+let drivers: {
+    id:number
+    name:string
+    age?:number
+
+} = {id:23, name:"abdre"}
+console.log(drivers)
+
+drivers.name = "belete"
+drivers.id = 3242
+
+
 
 
 
