@@ -16,3 +16,20 @@ do {
     console.log("Iteration" + i);
     i++;
 } while (i <= 10);
+// nested for loop
+var x;
+var y;
+var z;
+for (x = 0; x <= 5; x++) {
+    for (y = 0; y <= 5; y++) {
+        console.log("*");
+    }
+}
+for (x = 0; x <= 5; x++) {
+    for (y = x; y <= 5; y++) {
+        console.log("*");
+    }
+    for (z = x; z >= 0; z--) {
+        console.log("$");
+    }
+}
